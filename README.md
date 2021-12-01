@@ -34,8 +34,9 @@ Each cell contains one of four kinds of values:
     ,,
 
 2. A number literal. This is a valid floating point value, rendered in US
-   locale (decimal point, not comma, and possible exponents.) This example
-   contains one row with three literals that all evaluate to one:
+   locale (decimal point, not comma, and possible exponents.) Each number will
+   fit and be well behaved in a double precision floating point variable. This
+   example contains one row with three literals that all evaluate to one:
 
     1,1.000,10e-1
 
@@ -63,9 +64,8 @@ input, with some additional requirements:
 
 * Surrounding whitespace should be trimmed.
 * Formulas should be printed as the result of their evaluation as a number.
-* Numbers should be printed with the fewest possible decimal digits, and no
-  more than two decimal digits. For example, the value `3.0` should be printed
-  as `3`, and the value of the formula `=1/3` should be printed as `0.33`.
+* Numbers should be printed with the result of the %.02f formatter in C, go, or
+  Java.
 
 Formula Evaluation
 ------------------
