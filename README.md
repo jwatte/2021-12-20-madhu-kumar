@@ -11,7 +11,9 @@ what remains to do when you reach the end of the time. The exercise is about
 writing normal, working, code, for a normal, working input -- there are no
 "tricks" or "gotchas," and the problem is not intended to require any special
 deep insight or "a-ha!" moment. Just solve the problem as you would solve a
-general programming problem for yourself.
+general programming problem for yourself, given the time constraints. If there
+are questions or ambiguities, document your question and what you chose the
+answer to be, and keep going.
 
 Input File Format
 -----------------

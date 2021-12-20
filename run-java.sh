@@ -19,5 +19,8 @@ diff -u /tmp/testoutput2.csv provided/testoutput2.csv
 $JAVA SpreadCalc < provided/testinput3.csv > /tmp/testoutput3.csv
 diff -u /tmp/testoutput3.csv provided/testoutput3.csv
 
+$JAVA SpreadCalc < provided/testinput4.csv > /tmp/testoutput4.csv
+diff -u /tmp/testoutput4.csv provided/testoutput4.csv
+
 echo 'success!'
 
